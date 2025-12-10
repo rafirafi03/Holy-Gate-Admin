@@ -17,7 +17,7 @@ import {
   ChevronLeft,
   ChevronRight,
 } from "lucide-react";
-import { useSidebar } from "./SidebarContext";
+import { useSidebar } from "../SidebarContext";
 
 export default function Sidebar() {
   const { isOpen, toggleSidebar, closeSidebar } = useSidebar();

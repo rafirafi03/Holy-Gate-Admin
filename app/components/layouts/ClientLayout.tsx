@@ -1,8 +1,8 @@
 "use client";
 
-import Sidebar from "./Sidebar";
+import Sidebar from "../layouts/Sidebar";
 import Header from "./Header";
-import { SidebarProvider } from "./SidebarContext";
+import { SidebarProvider } from "../SidebarContext";
 
 export default function ClientLayout({
   children,
