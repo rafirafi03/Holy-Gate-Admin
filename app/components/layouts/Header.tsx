@@ -22,6 +22,7 @@ export default function Header() {
             placeholder="Search here..."
             className="w-full pl-9 pr-3 py-1.5 text-sm border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
           />
+          
         </div>
       </div>
 
